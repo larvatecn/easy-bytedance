@@ -1,0 +1,28 @@
+{
+    "name": "larva/easy-bytedance",
+    "description": "字节跳动SDK",
+    "keywords": [
+        "bytedance",
+        "smartprogram",
+        "bytedance-sdk",
+        "smartprogram-sdk"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Larva Team",
+            "email": "support@larva.com.cn"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "larva/easysdk": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyBytedance\\": "src/"
+        }
+    }
+}
